@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+
+
+    <img src="Icon Stop watch.png" alt="" class="stop-watch">
+
+
+
+    <div class="container">
+
+        
+
+        <div class="box">
+            <h1 id="hour">00</h1>
+            <h3>Hours</h3>
+        </div>
+
+        
+        <div class="box">
+            <h1 id="min">00</h1>
+            <h3>Minutes</h3>
+        </div>
+
+        
+        <div class="box">
+            <h1 id="sec">00</h1>
+            <h3>Seconds</h3>
+        </div>
+
+        
+        <div class="box">
+            <h1 id="msec">00</h1>
+            <h3>Millisec</h3>
+        </div>
+
+</div>
+
+
+<br>
+<br>
+<div class="buttons">
+
+    <button id="start" onclick="start(this)">Start</button>
+    <button id="stop" onclick="stop(this)">Stop</button>
+    <button id="reset" onclick="reset(this)">Reset</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
